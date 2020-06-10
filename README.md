@@ -27,7 +27,7 @@ In addition to the above, each role has unique data:
 * Intern - School
 
 # Walkthrough GIF
-![Team Profile Generator Demo](/walkthrough.gif)
+![Team Profile Generator Demo](/TeamGenWalkthrough.gif)
 
 # Technologies
 This application was built with:
