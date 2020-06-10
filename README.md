@@ -4,20 +4,14 @@ Node.js application that creates an `.html` file based on the user's input using
 
 ## Getting Started
 ### Installation
-Run:
-
-```bash
-npm i
-```
+Clone from Gihub repo.
 
 ### Usage
-After installation, in the terminal, run:
+After installation, in the terminal, navigate to the cloned repo. Run:
 
 ```bash
-npm start
+node app.js
 ```
-
-This will start the script. The user will be prompted with a series of questions relating to the manager of the team. After the data for the manager is collected, the user will be able to add an engineer or an intern to the team, with the corresponding questions following. The user may add as many engineers/interns as necessary before opting to finish building the team. All of the data will be written to a `.html` file which will then be saved to the `output/` folder and opened for the user to view. 
 
 This starts the script. The user will be prompted with a series of questions related to the Team Manager. After that data is collectedm the uesr is then able to add an Engineer or Intern to the team, with questions for each to answer. Users can add as few or many Engineers and Interns to the Team before choosing to finish the submission. All of the data collected will be written to an `.html` file which is saved to the `output/` folder.
 
@@ -28,12 +22,14 @@ The data displayed for each of the team members are:
 * Email
 
 In addition to the above, each role has unique data:
-* Manager - Office Room Number
+* Manager - Office Number
 * Engineer - GitHub UserName
-* Intern - Educational Institution
+* Intern - School
+
+# Walkthrough GIF
+![Team Profile Generator Demo](/walkthrough.gif)
 
 # Technologies
-
 This application was built with:
 
 * HTML
@@ -61,7 +57,7 @@ Documentation on dependencies:
 # Testing
 Run:
 ```bash
-npm test
+npm run test
 ```
 
 Which will start the `jest` module to run the tests in the `tests/` folder.
